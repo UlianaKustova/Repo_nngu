@@ -103,13 +103,52 @@ switch (user) {
         console.log("no info")
 }
  */
+/* ЛОГИЧЕСКОЕ ИЛИ - первое тру второе фолс всегда если нет то идем дальше */
+/* const a = 100
+const d = 1
+const results = a || d
+console.log(results) */
 
+/* ЛОГИЧЕСКОЕ И - Находит первое ложное значение и выводит его в изначальном виде */
+/* const a = 0
+const b = 1
+const results = a && b
+console.log(results) */
 
+/* const a = 15
+const d = 200
+const c = 3
+if (a > d && a > c) {
+    console.log(a)
+} else if (d > a && d > c) {
+    console.log(d)
+} else {
+    console.log(c)
+} */
+/* НЕТ РАНЬШЕ И, И РАНЬШЕ ИЛИ */
 
+/* console.log(null || 0 || "" || undefined)
+console.log("яблоко" && true && null && 1)
+console.log(0 || true && "false" || null)
+console.log(0 && true || "false" && null)
+console.log(!0 && !!1)
+console.log(!(null || !"апельсин" && true)) */
 
+/* let i = 0
+while (i < 11) {
+    console.log(i)
+    i += 1
+} */
 
+/* let e = 2020
+let s = 1800
+console.log(e - s) */
 
-
-
-
-
+/* let M = 100
+let N = 1
+let d = 0
+while (M >= N) {
+    M /= 2
+    d += 1
+}
+console.log(d) */  /*auto  */
