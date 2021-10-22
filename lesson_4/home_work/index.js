@@ -89,17 +89,22 @@ console.log(num(10));
 //     console.log(getArray([100, 12, 1, -8, 1,1]));
 
 //10
-const getDigitsSum = (num) => {
-    let sum = 0;
-    let x = String(num);
-    for (let i = 0; i < x.length; i += 1) {
-        sum += +x[i];
+// const getDigitsSum = (num) => {
+//     let sum = 0;
+//     let x = String(num);
+//     for (let i = 0; i < x.length; i += 1) {
+//         sum += +x[i];
+//     }
+//     return sum;
+// };
+// console.log(getDigitsSum(123));
+
+//11
+for (let year = 1; year <= 2020; year += 1) {
+    if (getDigitsSum(year) === 13) {
+        console.log(year);
     }
-    return sum;
-};
-console.log(getDigitsSum(123));
-
-
+}
 
 
 
