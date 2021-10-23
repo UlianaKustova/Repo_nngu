@@ -106,8 +106,20 @@ for (let year = 1; year <= 2020; year += 1) {
     }
 }
 
-
-
+const evennine = (num) => {
+    num = `${num}`
+    let sum = 0
+    for (let i = 0; i < num.length; i += 1) {
+        sum += num[i]
+    }
+    console.log(sum)
+    if (sum > 9) {
+        return evennine(sum)
+    } else {
+        return sum
+    }
+}
+console.log(evennine(2478))
 
 
 
